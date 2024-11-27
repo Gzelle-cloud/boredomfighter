@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background: none;
+}
+
+.frame {
+  border: none;
+  display: flex;
+  background-color: rgb(255, 247, 209, 0.5);
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 400px;
+}
+
+.tag {
+  border-radius: 10px;
+  background-color: aqua;
+  padding: 5px;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+h1, h3, p {
+  font-family: "Poppins", sans-serif;
+}
