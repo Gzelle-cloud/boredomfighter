@@ -2,6 +2,8 @@
 
 Bored? Not anymore! BoredomFighter is here to inspire you with fun and exciting activities, whether you're alone or with friends, indoors or outdoors. Just click Get Started and let the ideas roll in!
 
+https://boredomfighter.netlify.app/
+
 ## Features
 ✅ Get random activity suggestions
 
@@ -12,7 +14,7 @@ Bored? Not anymore! BoredomFighter is here to inspire you with fun and exciting 
 ✅ Instant ideas with just one click
 
 ## How It Works
-BoredomFighter fetches random activity ideas from the Bored API. Every time you click Get Started, the app pulls a new activity suggestion to keep you engaged.
+BoredomFighter fetches random activity ideas from the Bored API. Every time you click the button, the app pulls a new activity suggestion to keep you engaged.
 
 ## API Usage
 BoredomFighter uses the following API to fetch activities: https://bored.api.lewagon.com/api/activity 
