@@ -1,8 +1,23 @@
-# React + Vite
+# BoredomFighter 🎉
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bored? Not anymore! BoredomFighter is here to inspire you with fun and exciting activities, whether you're alone or with friends, indoors or outdoors. Just click Get Started and let the ideas roll in!
 
-Currently, two official plugins are available:
+## Features
+✅ Get random activity suggestions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Works for solo and group activities
+
+✅ Indoor and outdoor options
+
+✅ Instant ideas with just one click
+
+## How It Works
+BoredomFighter fetches random activity ideas from the Bored API. Every time you click Get Started, the app pulls a new activity suggestion to keep you engaged.
+
+## API Usage
+BoredomFighter uses the following API to fetch activities: https://bored.api.lewagon.com/api/activity 
+
+## Contributing
+I appreciate feedback and suggestions! If you have ideas on how to improve the app, feel free to open an issue or share your thoughts. 
+
+## Enjoy! 😊
