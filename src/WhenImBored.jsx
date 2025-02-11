@@ -9,7 +9,6 @@ function WhenImBored() {
     const getActivity = async () => {
       const response = await fetch("https://bored.api.lewagon.com/api/activity");
       const data = await response.json();
-      console.log("here:"+ data.activity);
       setActivity(data);
     };
 
@@ -30,11 +29,12 @@ function WhenImBored() {
         <button onClick={buttonClicked} className="btn">{ stillBored }</button>  
       </div>
       
+      {activity.activity && 
       <div className="frame">
         <h3>{activity.activity}</h3>
         <p className="tag">#{activity.type}</p>
       </div>
-      
+      }      
       
     </div>
   );

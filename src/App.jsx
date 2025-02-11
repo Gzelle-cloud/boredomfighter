@@ -13,8 +13,11 @@ function App() {
         <h1>Feeling bored? No problem! 🎉</h1>
       </div>
       <div className='container'>
-        <p>We’ve got plenty of creative, fun, and exciting activities to inspire you. Whether you’re alone or with friends, indoors or out, we’ll help you find something to do that suits your mood.</p>
+        <p>We’ve got plenty of creative, fun, and exciting activities to inspire you. </p>        
       </div>      
+      <div className='container'>        
+        <p>Whether you’re alone or with friends, indoors or out, we’ll help you find something to do that suits your mood.</p>
+      </div>
       <div className='container'>
         <p>Just click Get Started and let the ideas roll in!</p>
       </div>
